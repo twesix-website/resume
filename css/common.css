@@ -7,6 +7,19 @@ html
     height:100%;
 }
 
+@media print
+{
+    .print
+    {
+        visibility: visible !important;
+    }
+}
+
+footer
+{
+    font-size: 1.2em;
+}
+
 #resume_header
 {
     text-align: center;
@@ -55,4 +68,10 @@ html
 .group-content
 {
     font-size: 1.3em;
+    padding: 1em;
+}
+
+.print
+{
+    visibility: hidden;
 }
